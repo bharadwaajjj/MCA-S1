@@ -2,11 +2,11 @@
 -----------------------
 # Lab Cycle 1
 ------------------
-1. Array
-2. Stack
-3. Queue
-4. Circular Queue
-5. Linked List
+1. Array Operations
+2. Merging 2 Arrays
+3. Linked List Operations
+4. Stack Using Linked List
+5. Queue Using Linked List
 6. Doubly Linked List
 7. Circular Linked List
 8. Set using Bit String
