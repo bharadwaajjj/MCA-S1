@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM DESGIN</title>
+    <style>
+        #AS{
+            color: brown;
+            margin-left: 350px;
+            margin-right: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+    <form>
+        <marquee id="AS" onmouseover="stop()" onmouseout="start()">Fill the registration form.....!!!!!!</marquee>
+        <table style="border-style:solid;" border="5">
+            <tr>
+                <th colspan="2"><h1>REGISTRATION FORM</h1></th>
+            </tr>
+            <tr>
+                <td><label>Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Age</label></td>
+                <td>
+                    <select>
+                        <option value="select">SELECT</option>
+                        <option value="1-18">1-18</option>
+                        <option value="18-20">18-35</option>
+                        <option value="35-60">35-60</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label>Re-enter password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label>Select your security question</label></td>
+                <td>
+                    <input type="radio" value="What is your pet name" name="question">What is your pet name?<br>
+                    <input type="radio" value="Who is your best friend" name="question">Who is your best friend?<br>
+                    <input type="radio" value="What is your favourite colour" name="question">What is your favourite colour?<br>
+                    <input type="radio" value="Who is your favourite teacher" name="question">Who is your favourite teacher?
+                </td>
+            </tr>
+            <tr>
+                <td><label>Answer of security question</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Email Id</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label>Language known</label></td>
+                <td>
+                    <input type="checkbox" value="Malayalam">Malayalam
+                    <input type="checkbox" value="English">English
+                    <input type="checkbox" value="Hindi">Hindi
+                </td>
+            </tr>
+            <tr>
+                <td><label>Phone number</label></td>
+                <td><table border="2">
+                    <tr>
+                        <th>Home</th>
+                        <th>Office</th>
+                    </tr>
+                    <tr>
+                        <td><input type="phone"></td>
+                        <td><input type="phone"></td>
+                    </tr>
+                </table></td>
+            </tr>
+            <tr>
+                <td><label>Upload CV</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="reset"></td>
+                <td align="center"><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+
+</html>
