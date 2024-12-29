@@ -1,0 +1,66 @@
+.container
+{
+    display: flex;
+    margin: 4px;
+}
+
+.flex1
+{
+    height: 300px;
+    flex: 30%;
+    background-color:rgb(228, 172, 172);
+    margin: 4px;
+    padding-left: 5px;
+}
+.flex2
+{
+    height: 300px;
+    flex: 70%;
+    background-color: #decfcf;
+    margin: 4px;
+    padding-left: 5px;
+}
+
+.heading
+{
+    height:80px ;
+    background-color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 4px;
+}
+
+
+.image-container {
+    position: relative;
+    height: 300px;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    animation: fade 5s infinite;
+}
+.image1
+{
+    animation-delay: 0s;
+}
+.image2
+{
+    animation-delay: 2.5s;
+}
+
+@keyframes fade
+{
+    0%,100%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+
+}
