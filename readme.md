@@ -62,3 +62,15 @@
 28. Read each row from a given csv file and print it as a list of strings
 29. Read specific columns of a given CSV file and print their contents
 30. Write a Python dictionary to a CSV file, read the CSV and display its content
+
+---
+
+## Web Programming Lab
+
+1. Resume
+2. Internal Links
+3. Job Application
+4. Frameset
+5. CSS
+6. Factorial
+7. Login Form
